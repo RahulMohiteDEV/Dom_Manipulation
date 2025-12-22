@@ -1,0 +1,68 @@
+:root{
+    --pri:#1B3C53;
+    --sec:#E3E3E3;
+    --tri:#456882;
+    --tri1:#94b7cf;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+html,
+body{
+    height: 100%;
+    width: 100%;
+    background-color: var(--sec);
+   
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    
+}
+
+nav{
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    background-color: var(--tri);
+}
+
+section.allElems{
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+    padding-top: 80px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex start;
+    gap: 20px;
+    
+
+}
+
+.elem{
+    background-color: var(--tri1);
+    height: 400px;
+    width: 330px;
+    border-radius: 10px;
+    font-size: 30px;
+    transition: ease-in-out 0.2;
+
+}
+
+.elem:active{
+    scale: 0.9;
+}
+
+.fullElem{
+    height: 100%;
+    width: 100%;
+    padding: 40px;
+    display: none;
+}
