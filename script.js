@@ -1,4 +1,5 @@
-var allelems = document.querySelectorAll('.elem');
+ function OpenPage(){
+    var allelems = document.querySelectorAll('.elem');
 var fullElem = document.querySelectorAll('.fullElem')
 var fullElemBackBtn = document.querySelectorAll('.fullElem .back')
 
@@ -14,3 +15,6 @@ fullElemBackBtn.forEach(function(back) {
         fullElem[back.id].style.display = 'none' 
     })
 })
+ }
+
+ OpenPage();
